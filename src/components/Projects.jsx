@@ -111,7 +111,7 @@ const ProjectCard = ({ project, index }) => {
                 href={project.liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg flex items-center justify-center gap-2 transition"
+                className="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg flex items-center justify-center gap-2 transition"
               >
                 <FaExternalLinkAlt className="text-sm" />
                 Live Demo
@@ -144,7 +144,7 @@ const ProjectCard = ({ project, index }) => {
           {project.tags.map((tag, idx) => (
             <span
               key={idx}
-              className="bg-green-100 text-green-700 text-xs font-medium px-3 py-1 rounded-full"
+              className="bg-blue-100 text-blue-700 text-xs font-medium px-3 py-1 rounded-full"
             >
               {tag}
             </span>
@@ -157,7 +157,7 @@ const ProjectCard = ({ project, index }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="min-h-screen bg-green-100 py-16">
+    <section id="projects" className="min-h-screen bg-blue-100 py-16">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -168,7 +168,7 @@ const Projects = () => {
             Here are some of my recent projects showcasing my skills and
             expertise in web development.
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-green-600 mx-auto mt-6 rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto mt-6 rounded-full"></div>
         </div>
 
         {/* Projects Grid */}
@@ -187,7 +187,7 @@ const Projects = () => {
             href="https://github.com/dev-shahbaz-ali"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
           >
             <FaGithub className="text-xl" />
             Visit My GitHub

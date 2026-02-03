@@ -50,9 +50,9 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="min-h-screen bg-green-100 py-12">
+    <section id="skills" className="min-h-screen bg-blue-100 py-12">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-green-600 mb-8">
+        <h2 className="text-4xl font-bold text-center text-blue-600 mb-8">
           My Skills
         </h2>
 
@@ -62,7 +62,7 @@ const Skills = () => {
               key={index}
               className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-500"
             >
-              <h3 className="text-2xl font-semibold text-green-500 mb-4 text-center">
+              <h3 className="text-2xl font-semibold text-blue-500 mb-4 text-center">
                 {category.title}
               </h3>
 
@@ -71,7 +71,7 @@ const Skills = () => {
                   <div key={idx}>
                     <div className="flex items-center justify-between mb-1">
                       <div className="flex items-center gap-3 text-gray-700 font-medium">
-                        <span className="text-xl text-green-500">
+                        <span className="text-xl text-blue-500">
                           {skill.icon}
                         </span>
                         {skill.name}
@@ -81,9 +81,9 @@ const Skills = () => {
                       </span>
                     </div>
 
-                    <div className="w-full bg-green-100 rounded-full h-2.5">
+                    <div className="w-full bg-blue-100 rounded-full h-2.5">
                       <div
-                        className="bg-green-500 h-2.5 rounded-full transition-all duration-700"
+                        className="bg-blue-500 h-2.5 rounded-full transition-all duration-700"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>

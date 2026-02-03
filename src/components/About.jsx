@@ -5,19 +5,19 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-green-100 flex items-center py-16"
+      className="min-h-screen bg-blue-100 flex items-center py-16"
     >
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}
         <div className="text-center mb-14">
-          <div className="inline-flex items-center gap-2 px-5 py-2 bg-green-500/10 rounded-full mb-4">
-            <FaUserAstronaut className="text-green-500" />
-            <span className="text-sm font-semibold text-green-600 uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-5 py-2 bg-blue-500/10 rounded-full mb-4">
+            <FaUserAstronaut className="text-blue-500" />
+            <span className="text-sm font-semibold text-blue-600 uppercase tracking-wider">
               About Me
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-extrabold text-green-600">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600">
             Who I Am
           </h2>
         </div>
@@ -26,7 +26,7 @@ const About = () => {
         <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 max-w-4xl mx-auto">
           <p className="text-gray-700 text-lg md:text-xl leading-relaxed text-center mb-10">
             I am a passionate{" "}
-            <span className="font-semibold text-green-600">
+            <span className="font-semibold text-blue-600">
               Full-Stack Developer
             </span>{" "}
             with over <span className="font-semibold">5+ years</span> of
@@ -37,8 +37,8 @@ const About = () => {
 
           {/* Feature cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="group p-6 rounded-2xl bg-green-50 hover:bg-green-100 transition">
-              <FaCode className="text-3xl text-green-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
+            <div className="group p-6 rounded-2xl bg-blue-50 hover:bg-blue-100 transition">
+              <FaCode className="text-3xl text-blue-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
               <h4 className="text-lg font-bold text-gray-800 mb-2 text-center">
                 Clean Code
               </h4>
@@ -47,8 +47,8 @@ const About = () => {
               </p>
             </div>
 
-            <div className="group p-6 rounded-2xl bg-green-50 hover:bg-green-100 transition">
-              <FaLightbulb className="text-3xl text-green-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
+            <div className="group p-6 rounded-2xl bg-blue-50 hover:bg-blue-100 transition">
+              <FaLightbulb className="text-3xl text-blue-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
               <h4 className="text-lg font-bold text-gray-800 mb-2 text-center">
                 Problem Solving
               </h4>
@@ -57,8 +57,8 @@ const About = () => {
               </p>
             </div>
 
-            <div className="group p-6 rounded-2xl bg-green-50 hover:bg-green-100 transition">
-              <FaUserAstronaut className="text-3xl text-green-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
+            <div className="group p-6 rounded-2xl bg-blue-50 hover:bg-blue-100 transition">
+              <FaUserAstronaut className="text-3xl text-blue-500 mb-4 mx-auto group-hover:scale-110 transition-transform" />
               <h4 className="text-lg font-bold text-gray-800 mb-2 text-center">
                 User Focus
               </h4>

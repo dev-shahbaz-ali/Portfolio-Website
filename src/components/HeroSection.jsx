@@ -16,28 +16,24 @@ const HeroSection = () => {
         <div className="inline-flex items-center gap-2 mb-8 px-6 py-2 bg-blue-200/30 backdrop-blur-lg rounded-full border border-blue-300/50 shadow-xl">
           <HiSparkles className="text-blue-600 text-lg animate-pulse" />
           <p className="text-sm md:text-base font-semibold text-blue-700 tracking-widest">
-            Your All-in-One AI SaaS Platform
+            Full Stack Web Developer | React | Next.js
           </p>
         </div>
 
-        {/* Heading */}
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-800 mb-6 leading-tight drop-shadow-2xl">
-          Creative Developer <br />
-          <span className="bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-            & Designer
-          </span>
+        <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-800 mb-6">
+          I Build Modern <br />
+          <span className="text-blue-600">Web Applications</span>
         </h1>
 
-        {/* Description */}
-        <p className="text-lg md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
-          I craft high-quality digital experiences using modern technologies,
-          clean architecture, and pixel-perfect design.
+        <p className="text-lg md:text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
+          I help businesses and startups build fast, responsive, and scalable
+          web applications using React, Next.js, and modern technologies.
         </p>
 
         {/* CTA */}
         <div className="flex flex-col sm:flex-row gap-5 md:gap-7 justify-center items-center">
           <button className="group flex items-center gap-3 px-9 md:px-11 py-4 rounded-full bg-white text-blue-600 font-bold text-lg md:text-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
-            See My Work
+            View Portfolio
             <FaArrowRight className="group-hover:translate-x-2 transition-transform duration-300" />
           </button>
 

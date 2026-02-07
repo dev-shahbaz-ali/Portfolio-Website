@@ -18,9 +18,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center text-blue-700 font-bold text-2xl md:text-3xl drop-shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+            <div className="flex items-center text-blue-700 font-bold text-2xl md:text-3xl">
               <HiSparkles className="mr-3 text-blue-600" />
-              Portfolio
+              Shahbaz Ali
             </div>
           </div>
 
@@ -45,8 +45,8 @@ const Navbar = () => {
 
           {/* Desktop CTA Button */}
           <div className="hidden md:block">
-            <button className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
-              Get Started
+            <button className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-bold shadow-lg">
+              Hire Me
             </button>
           </div>
 
@@ -95,8 +95,8 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <button className="w-full text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-bold transition-all duration-300 cursor-pointer">
-                  Get Started
+                <button className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-bold shadow-lg">
+                  Hire Me
                 </button>
               </li>
             </ul>

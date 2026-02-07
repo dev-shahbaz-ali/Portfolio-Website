@@ -24,15 +24,14 @@ const About = () => {
 
         {/* Card */}
         <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 max-w-4xl mx-auto">
-          <p className="text-gray-700 text-lg md:text-xl leading-relaxed text-center mb-10">
-            I am a passionate{" "}
+          <p className="text-gray-700 text-lg leading-relaxed text-center mb-10">
+            I am a passionate
             <span className="font-semibold text-blue-600">
-              Full-Stack Developer
-            </span>{" "}
-            with over <span className="font-semibold">5+ years</span> of
-            experience building scalable and user-focused web applications. I
-            love turning complex problems into clean, elegant, and intuitive
-            solutions.
+              {" "}
+              Full Stack Developer{" "}
+            </span>
+            focused on building clean, scalable, and user-friendly web
+            applications. I enjoy turning ideas into real products.
           </p>
 
           {/* Feature cards */}
